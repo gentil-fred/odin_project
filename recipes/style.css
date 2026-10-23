@@ -1,0 +1,64 @@
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(26, 27, 29);
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#liste{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+
+}
+
+#liste a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+.div1{
+text-align: center;
+}
+
+
+img{
+    width: 500px;
+    
+
+}
+
+p{
+    font-weight:600;
+}
+
+ul{
+    display: inline-block;
+    text-align: left; 
+}
+
+li{
+    font-weight: 600;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
